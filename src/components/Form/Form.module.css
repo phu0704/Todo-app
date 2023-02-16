@@ -1,0 +1,9 @@
+#logo {
+  font-family: "Poppins", sans-serif;
+  color: rgb(36, 154, 233);
+  font-size: 50px;
+  font-family: "Lucida Handwriting", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

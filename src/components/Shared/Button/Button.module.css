@@ -1,0 +1,38 @@
+:root {
+  --blu1: rgb(36, 154, 233);
+  --blu2: rgb(13, 72, 112);
+  --blu3: rgb(6, 37, 124);
+  --statuscolor: rgb(107, 85, 85);
+  --statuscolorhover: rgb(25, 24, 26);
+}
+#add {
+  padding: 5px;
+  border: none;
+  margin-left: 2%;
+  background-color: var(--blu1);
+  color: white;
+  font-size: 27px;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+#add:hover {
+  cursor: pointer;
+  background-color: var(--blu2);
+}
+.checkstatus {
+  border: none;
+  background-color: white;
+  color: var(--statuscolor);
+  padding: 5%;
+  font-weight: bold;
+  font-size: 17px;
+}
+.checkstatus:hover {
+  cursor: pointer;
+  color: var(--statuscolorhover);
+}
+#Check {
+  color: var(--blu3);
+}

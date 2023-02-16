@@ -1,0 +1,54 @@
+:root {
+  --eee: #eee;
+  --blu: #00aefd;
+  --backColor: white;
+  --boxShadow: rgba(0, 0, 0, 0.5);
+  --borderColor: rgb(121, 69, 69);
+  --check: rgb(6, 37, 124);
+  --checkstatus: rgb(107, 85, 85);
+  --checkstatushover: rgb(25, 24, 26);
+  --count: rgb(54, 52, 52);
+}
+input {
+  margin-top: 5px;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 0.5rem;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  border: 1px solid var(--eee);
+  background-color: var(--backColor);
+  background-color: var(--eee);
+  border-color: var(--blu);
+}
+input:focus {
+  border-color: var(--borderColor);
+  background-color: var(--eee);
+}
+input:hover {
+  border-color: var(--borderColor);
+  background-color: var(--eee);
+}
+input::placeholder {
+  color: black;
+}
+#name::placeholder {
+  color: #83888b;
+}
+#time {
+  margin-left: 2%;
+}
+.list {
+  background-color: var(--backColor);
+  border: 1px solid var(--eee);
+  border-color: var(--backColor);
+}
+.list:hover {
+  border-color: var(--borderColor);
+  background-color: var(--eee);
+}
+.list:focus::placeholder {
+  color: var(--eee);
+}
